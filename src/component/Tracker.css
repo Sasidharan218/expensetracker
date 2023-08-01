@@ -1,0 +1,18 @@
+.content{
+   border: 1px solid black;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.content h1{
+    padding: 20px;
+}
+
+.content Button{
+    margin: 0 10px;
+}
+.content2{
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 20px 0;
+}
