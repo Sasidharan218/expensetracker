@@ -39,13 +39,13 @@ function Tracker() {
       <button onClick={handleRemove}>Remove</button>
       <div>
         <h2>Transaction</h2>
-        <ul>
+        <div>
           {expenses.map((transaction, index) => (
-            <li key={index}>
+            <p key={index}>
               {transaction.time} - {transaction.action} -{transaction.value}
-            </li>
+            </p>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );
