@@ -1,4 +1,4 @@
-import Tracker from './component/Tracker';
+
 import TrackerMUI from './component/TrackerMUI';
 import './App.css';
 
